@@ -1,0 +1,147 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    background-color:cornsilk;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background-color: rgb(162, 127, 195);
+    border-radius: 9px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 30px;
+    width: 100%;
+}
+.text{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 600;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: white;
+    border-radius: 6px;
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px; 
+}
+.forget-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+.forget-password span{
+    cursor: pointer;
+    color: #4c00b4;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.submit-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    gap: 100px;
+}
+.submit:hover{
+    background-color: beige;
+    color: blue;
+}
+.submit1{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 200px;
+}
+.submit2{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 200px;
+}
+@media only screen and (max-width: 480px){
+    body{
+        background-color: red;
+        width:max-content;
+        height:max-content;
+    }
+}
+@media only screen and (min-width: 992px){
+    body{
+        background-color: aquamarine;
+        height:max-content;
+    }
+}
+.submit1:hover{
+    background-color: beige;
+    color: blue;
+
+}
+.submit2:hover{
+    background-color: beige;
+    color: blue;
+}
+.forget-password:hover{
+    cursor: pointer;
+    color:coral ;
+}
